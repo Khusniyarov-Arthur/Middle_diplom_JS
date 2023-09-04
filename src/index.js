@@ -1,0 +1,21 @@
+import { swiper } from "./modules/swiper";
+import { modal } from "./modules/modal";
+import { mySlider } from "./modules/mySlider";
+import { servicesModal } from "./modules/servicesModal";
+import { timer } from "./modules/timer";
+import { validateApplication } from "./modules/validateApplication";
+import { sertificate } from "./modules/sertificate";
+import { smoothScroll } from "./modules/smoothScroll";
+import { calculator } from "./modules/calculator";
+import { hardTask } from "./modules/hardTask";
+
+modal();
+swiper();
+mySlider();
+servicesModal();
+timer("23 february 2024 : 13:39:30");
+validateApplication();
+sertificate();
+smoothScroll();
+calculator();
+hardTask();
